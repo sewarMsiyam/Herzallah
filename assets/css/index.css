@@ -1,0 +1,35 @@
+:root {
+  --primary: #1088A2;
+  --swiper-theme-color: #F39100;
+  --swiper-navigation-size: 24px;
+  --bg-offwhite: #f8fbfd;
+
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Font/Montserrat-Arabic-Regular.ttf') format('truetype');
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif, FontAwesome, sans-serif;
+}
+
+
+header .nav1 {
+  background: rgb(0, 115, 171);
+  /* background: linear-gradient(180deg, rgba(0, 115, 171, 1) 17%, rgba(33, 212, 253, 1) 100%); */
+}
+
+header .nav1 nav .nav-link {
+  color: #fff;
+}
+
+.navbar-brand{
+  position: absolute;
+  right: 0;
+  top: -57px;
+}
