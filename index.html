@@ -15,15 +15,15 @@
     <!-- Ar --->
     <!-- <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.rtl.min.css"> -->
     <link rel="stylesheet" href="assets/css/index.css">
-    <!-- <link rel="stylesheet" href="assets/css/indexAr.css"> -->
+    <link rel="stylesheet" href="assets/css/indexEn.css">
 </head>
 
 <body>
 
     <header class="position-relative">
         <div class="container-fluid nav1">
-            <nav class="container nav">
-                <a class="nav-link">Chat with us</a>
+            <nav class="container nav justify-content-end">
+                <a class="nav-link">تواصل معنا</a>
                 <a class="nav-link" href="tel:966562298922">
                     <span>
                         <i class="fa-solid fa-phone"></i>
@@ -40,61 +40,70 @@
                     <span>
                         <i class="fa-solid fa-location-dot pe-2"></i>
                     </span>
-                    <span class="d-none d-lg-inline">Palestine - Gaza</span>
+                    <span class="d-none d-lg-inline">فلسطين -غزة</span>
                 </a>
             </nav>
         </div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container position-relative">
+            
+                <a class="navbar-brand d-none d-md-block" href="#">
+                    <div class="navbarLogoTOP">
+                    <img src="assets/images/logobgwhite.png" class="img-logo-fluid" />
+                </div>
+                </a>
+                <a class="navbar-brand d-md-none" href="#">
+                    <img src="assets/images/logo.png" class="img-fluid" />
+                </a>
 
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <img src="assets/images/logobgwhite.png" class="img-fluid w-75" />
+                        </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 text-center pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#Home">الرئيسية </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#whowe">who are we</a>
+                                <a class="nav-link" href="#whowe">من نحن</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#services">Our services</a>
+                                <a class="nav-link" href="#servers">خدماتنا</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#Executive">Executive Chairman</a>
+                                <a class="nav-link" href="#Executive">مدير تنفيذي</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#Connect">Connect with us</a>
+                                <a class="nav-link" href="#Connect">تواصل معنا</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#Partners">Partners</a>
+                                <a class="nav-link" href="#Partners">الشركاء</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- <a class="navbar-brand" href="#">
-                    <img src="assets/images/logobgwhite.png" class="img-logo-fluid" />
-               </a>  -->
+
             </div>
         </nav>
     </header>
 
-    <section class="position-relative h-sec-img">
+    <section class="position-relative h-sec-img" id="Home">
         <div class="h-100 w-100 position-absolute z-n1 ">
             <img src="assets/images/headimg.png" class="w-100 h-100 img-cover" />
         </div>
         <div class="bg-opacity">
             <div class="container h-100">
                 <div class="row h-100 align-items-center landSec mx-auto ">
-                    <div class="text-center">
+                    <div class="text-center" data-aos="zoom-in-down" data-aos-easing="linear">
                         <h1 class="text-white title">حرزالله للصرافة والحوالات المالية</h1>
                         <p class="sup-title text-white">مرحبًا بكم في صفحة حرزالله الرسمية للصرافة والحوالات المالية.
                         </p>
@@ -103,62 +112,422 @@
             </div>
         </div>
     </section>
-
-
-    <section>
+ 
+    <section class="mb-5" data-aos="fade-down" data-aos-easing="linear">
         <div class="container info-countdown">
             <div class="row col-9 align-items-center justify-content-center mx-auto numberCount">
-                <div class="col-12 col-md-6 col-lg-3 text-center">
-                    <span>35</span>
-                    <p>موظفون من بلدان مختلفة</p>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 text-center">
-                    <span>270000</span>
-                    <p>التحويل السنوي</p>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 text-center">
-                    <span>20</span>
-                    <p>سنوات الخبرة</p>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 text-center">
+                <div class="col-12 col-md-6 col-lg-3 text-center" data-aos="flip-left" data-aos-easing="linear"data-aos-duration="1500">
                     <span>4</span>
                     <p>الفروع</p>
                 </div>
+                <div class="col-12 col-md-6 col-lg-3 text-center" data-aos="flip-left" data-aos-easing="linear"data-aos-duration="1500">
+                    <span>20</span>
+                    <p>سنوات الخبرة</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 text-center" data-aos="flip-left" data-aos-easing="linear"data-aos-duration="1500">
+                    <span>270000</span>
+                    <p>التحويل السنوي</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 text-center" data-aos="flip-left" data-aos-easing="linear"data-aos-duration="1500">
+                    <span>35</span>
+                    <p>موظفون من بلدان مختلفة</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="whowe">
+    <section id="whowe" class="py-5">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6 text-start">
-                    <h3>من نحن</h3>
-                    <p>تأسس حرزالله للصرافة وتحويلات الأموال منذ عام 1982، وهي واحدة من الشركات الرائدة في الصرف النقدي والخدمات المالية في فلسطين وقطاع غزة، وهي مرخصة ومرخصة من قبل سلطة النقد الفلسطينية (PMA)، وتقدم الشركة مجموعة واسعة من الخدمات المالية مثل صرافة الأموال وتحويلات الأموال وحلول المدفوعات..</p>
-                    <p> لقد أنشأ شركتنا رجل الأعمال الفلسطيني والشخصية العامة السيد صلاح حرزالله، وركز على التطوير المستمر ورضا العملاء وجعلهم على رأس أولوياته، وتعتبر شركة حرزالله واحدة من الشركات الرائدة على الصعيدين المحلي والدولي.</p>
-                    <p>في شركة حرزالله ، نتأكد من الوفاء بمسؤولياتنا الاجتماعية من خلال الامتثال للالتزامات الاجتماعية من خلال المشاركة في المبادرات والمناسبات الاجتماعية.</p>
+            <div class="row align-items-center justify-content-around">
+                <div class="col-12 col-lg-5 text-start" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <h3 class="title-sec">من نحن</h3>
+                    <p>تأسس حرزالله للصرافة وتحويلات الأموال منذ عام 1982، وهي واحدة من الشركات الرائدة في الصرف النقدي
+                        والخدمات المالية في فلسطين وقطاع غزة، وهي مرخصة ومرخصة من قبل سلطة النقد الفلسطينية (PMA)، وتقدم
+                        الشركة مجموعة واسعة من الخدمات المالية مثل صرافة الأموال وتحويلات الأموال وحلول المدفوعات..</p>
+                    <p> لقد أنشأ شركتنا رجل الأعمال الفلسطيني والشخصية العامة السيد صلاح حرزالله، وركز على التطوير
+                        المستمر ورضا العملاء وجعلهم على رأس أولوياته، وتعتبر شركة حرزالله واحدة من الشركات الرائدة على
+                        الصعيدين المحلي والدولي.</p>
+                    <p>في شركة حرزالله ، نتأكد من الوفاء بمسؤولياتنا الاجتماعية من خلال الامتثال للالتزامات الاجتماعية
+                        من خلال المشاركة في المبادرات والمناسبات الاجتماعية.</p>
                 </div>
-                <div class="col-12 col-lg-6">
-sss
+                <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <div class="extention">
+                        <h2 class="text-center mt-2">أسعار العملات</h2>
+                        <div class="extention-body text-white">
+                            <div class="d-flex justify-content-between fw-bold px-5 mb-4">
+                                <div class="col-4">العملة الشيكل</div>
+                                <div class="col-auto vr-extention"></div>
+                                <div class="col-4 text-center">سعر الشراء</div>
+                                <div class="col-auto vr-extention"></div>
+                                <div class="col-4 text-center">سعر البيع</div>
+                            </div>
+                            <div class="d-flex justify-content-between px-5 mb-4">
+                                <div class="col-4 fw-bold">الدولار</div>
+                                <div class="col-auto vr-extention"></div>
+                                <div class="col-4 text-center">3.56</div>
+                                <div class="col-auto vr-extention"></div>
+                                <div class="col-4 text-center">3.57</div>
+                            </div>
+                            <div class="d-flex justify-content-between px-5 mb-4">
+                                <div class="col-4 fw-bold ">الدينار</div>
+                                <div class="col-auto vr-extention"></div>
+                                <div class="col-4 text-center">4.99</div>
+                                <div class="col-auto vr-extention"></div>
+                                <div class="col-4 text-center">5.01</div>
+                            </div>
+                            <div class="d-flex justify-content-between px-5 mb-4">
+                                <div class="col-4 fw-bold">اليورو</div>
+                                <div class="col-auto vr-extention"></div>
+                                <div class="col-4 text-center">3.46</div>
+                                <div class="col-auto vr-extention"></div>
+                                <div class="col-4 text-center">3.53</div>
+                            </div>
+                            <div class="d-flex justify-content-between px-5 mb-4">
+                                <div class="col-4 fw-bold">الجنيه</div>
+                                <div class="col-auto vr-extention"></div>
+                                <div class="col-4 text-center">0.16</div>
+                                <div class="col-auto vr-extention"></div>
+                                <div class="col-4 text-center">0.17</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              
             </div>
         </div>
     </section>
 
-    <div class="container-fluid" id="services">
-        <div class="row">
-            <div class="col-12 col-lg-6">
-
-            </div>
-            <div class="col-12 col-lg-6">
-
+    <article class="servers my-5" data-aos="fade-up" id="servers">
+        <div class="container my-5">
+            <div class="row justify-content-center">
+                <span><img src="assets/images/dotservis.svg" class="position-absolute" /></span>
+                <div class="col-12 mb-4"  data-aos="zoom-in-up">
+                    <h3 class="text-center title-sec">خدماتنا</h3>
+                    <p class="text-center sup-title_sec">في شركة حرزالله. نقدم مجموعة متنوعة من الخدمات لعملائنا بما في
+                        ذلك</p>
+                    <div class="row mt-4">
+                        <div class="col-12 position-relative pt-4">
+                            <div class="swiper mySwiper h-100">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="card border shadow-sm p-4 rounded-4 servicesArticle">
+                                            <div class="over-num position-relative ">
+                                                <div class="around-icon"> <img src="assets/images/Services1.png"
+                                                        alt="services"></div>
+                                                <h5 class="mt-4 mb-3 fw-bolder"> الخدمات الاستشارية المالية</h5>
+                                                <p class="block-ellipsis">نسعى لتقديم أفضل الحلول المالية وخدمات
+                                                    الاستشارات
+                                                    المالية، بما في ذلك المشورة بشأن استثماراتهم المالية وإدارة أموالهم
+                                                    بطريقة آمنة .</p>
+                                                <p class="num">
+                                                    1
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card border shadow-sm p-4 rounded-4 servicesArticle">
+                                            <div class="over-num position-relative ">
+                                                <div class="around-icon"> <img src="assets/images/Services2.png" alt="">
+                                                </div>
+                                                <h5 class="mt-4 mb-3 fw-bolder">تبادل الأموال</h5>
+                                                <p class="block-ellipsis">نحن نوفر صرف الأموال لبيع وشراء العملات
+                                                    الأجنبية بأسعار تنافسية وسريعة للغاية تتماشى مع تقلبات السوق
+                                                    العالمية .</p>
+                                                <p class="num">
+                                                    2
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card border shadow-sm p-4 rounded-4 servicesArticle">
+                                            <div class="over-num position-relative">
+                                                <div class="around-icon"> <img src="assets/images/Services3.png" alt="">
+                                                </div>
+                                                <h5 class="mt-4 mb-3 fw-bolder">تحويل الأموال</h5>
+                                                <p class="block-ellipsis"> نقدم تحويلات مالية لعملائها محليًا ودوليًا
+                                                    بسعر تنافسي للغاية من خلال شبكة واسعة من الشركاء والفروع
+                                                    تشمل:التحويلات المالية الداخليةوالخارجية.</p>
+                                                <p class="num"> 3</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card border shadow-sm p-4 rounded-4 servicesArticle">
+                                            <div class="over-num position-relative">
+                                                <div class="around-icon"> <img src="assets/images/Services3.png" alt="">
+                                                </div>
+                                                <h5 class="mt-4 mb-3 fw-bolder">تحويل الأموال</h5>
+                                                <p class="block-ellipsis"> نقدم تحويلات مالية لعملائها محليًا ودوليًا
+                                                    بسعر تنافسي للغاية من خلال شبكة واسعة من الشركاء والفروع
+                                                    تشمل:التحويلات المالية الداخليةوالخارجية.</p>
+                                                <p class="num"> 3</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="navigation">
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span><img src="assets/images/dotservis.svg" class="position-absolute" style="top: 58%;left: 0;" /></span>
             </div>
         </div>
-    </div>
+    </article>
 
+    <section class=" py-5" id="Partners">
+        <div class="container py-5" data-aos="zoom-in-up">
+            <div class="row">
+                <h3 class="text-center title-sec mb-4"> شركاؤنا </h3>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-lg-10">
+                    <div class="d-flex justify-content-center align-items-center partnersFlex_wrap gap-5">
+                        <a href="#"><img src="assets/images/Partners1.png" class="img-fluid" /></a>
+                        <a href="#"><img src="assets/images/Partners2.png" class="img-fluid" /></a>
+                        <a href="#"><img src="assets/images/Partners3.png" class="img-fluid" /></a>
+                        <a href="#"><img src="assets/images/Partners5.png" class="img-fluid" /></a>
+                        <a href="#"><img src="assets/images/Partners6.png" class="img-fluid" /></a>
+                        <a href="#"><img src="assets/images/Partners7.png" class="img-fluid" /></a>
+                        <a href="#"><img src="assets/images/Partners8.png" class="img-fluid" /></a>
+                        <a href="#"><img src="assets/images/Partners9.png" class="img-fluid" /></a>
+                        <a href="#"><img src="assets/images/Partners10.png" class="img-fluid" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="Executive" class="Executive">
+        <div class="container">
+            <div class="row justify-content-center py-5" data-aos="zoom-in-down">
+                <div class="col-11 bg-white shadow-lg p-5 rounded-4" >
+                    <div class="row">
+                        <div class="col-12 col-lg-auto" data-aos="fade-left"data-aos-anchor="#example-anchor"data-aos-offset="500"data-aos-duration="500">
+                            <div class="position-relative Executive-Afterprimary mb-4">
+                                <img src="assets/images/user.png" class="img-fluid" />
+                            </div>
+                            <h5 class="fw-bolder pt-3">رئيس مجلس الإدارة</h5>
+                            <p class="sup-title_sec fw-12px">رئيس مجلس الإدارة</p>
+                        </div>
+                        <div class="col-auto d-none d-lg-flex">
+                            <div class="h-100 mx-4 vr"></div>
+                        </div>
+                        <div class="col-12 col-lg d-flex flex-column justify-content-center" data-aos="fade-right"data-aos-anchor="#example-anchor"data-aos-offset="500"data-aos-duration="500">
+                            <img src="assets/images/Get Quote.svg" width="40">
+                            <h2 class="Executive-title my-4" >كلمة رئيس مجلس الإدارة </h2>
+                            <div class="p-Exec">
+                                أهلاً وسهلاً بكم في شركة حرز الله للصرافة . . . 
 
-    <footer>
+                                <br>
+                                انطلاقاً من رسالتنا ورؤيتنا وقيمنا ومبادئنا التي أسست عليها شركتنا منذ العام ١٩٨٠، حيث
+                                كان ولازالت ويتبقى تطلع دائماً الى توظيف إمكانياتها البشرية والتقنية والفنية لتقديم
+                                الخدمات المالية لعملائها الكرام عبر شبكة من فروعها ووكلائها وشركائها في الداخل والخارج.
+                                <br>
+                                لقد عملنا خلال العقود الأربعة الماضية وما زلنا نعمل ونطمح لأن نكون إحدى الشركات الرائدة
+                                في تقديم الخدمات المالية التي تلبي احتياجاتك المختلفة.
+                                <br>
+                                اليوم نحن أكثر خبرة وأكثر قدرة على المنافسة وأنتم شركاؤنا الحقيقيون فيما حققناه.
+                                <br>
+                                نشكركم على ثقتكم ودعمكم الدائم ونتطلع دائمًا إلى الحفاظ على شراكة بناءة معكم.
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid ">
+            <div class="row justify-content-center align-items-center position-relative bg-imgObjectives">
+                <div class="container">
+                    <div class="row">
+                        <span><img src="assets/images/dots.svg" style="position: absolute;top: 8px; left: 10%;opacity: 0.4;"/></span>
+                        <div class="col-6"></div>
+                        <div class="col-12 col-lg-5 position-relative">
+                            <span><img src="assets/images/dots.svg" class="r-dots"/></span>
+                            <h3 class="title-sec mb-4"  data-aos="fade-up" data-aos-easing="linear"> مهمتنا ورؤيتنا </h3>
+                            <p  data-aos="fade-up" data-aos-easing="linear">
+                                نحن في شركة حرزالله نزدهر من أجل نتيجة ملموسة، حيث نعمل بجد لضمان استلام وإرسال الأموال
+                                بأمان وسلامة
+                                تامين، من خلال توفير جو موثوق وآمن لجميع المعاملات المالية من خلال توفير خدمة عملاء خاصة
+                                وفريدة من
+                                نوعها.
+                                <br>
+                                إرضاء جميع العملاء من خلال تقديم الخدمات المالية (تبادل الأموال وتحويل الأموال
+                                والاستشارات المالية)
+                                بطريقة احترافية وخاصة للغاية.
+                                <br>
+                                قيادة سوق الخدمات المالية محليا وعالميا.
+                            </p>
+                        </div>
+                        <div class="col"></div>
+                        <span><img src="assets/images/dots.svg" class="position-absolute end-0"/></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Connectus" id="Connect" data-aos="zoom-in" data-aos-easing="linear">
+        <div class="container">
+            <div class="row ">
+                <div class="bg-Connectus-color">
+                    <div class="position-relative padding-all-connect">
+                        <h3 class="sec-title fw-bolder position-relative aos-init mb-4"> تواصل معنا </h3>
+                        <div class="row justify-content-between  justify-start pb-4">
+                            <div class="col-12 col-lg-4 mb-4">
+                                <form class="form-Connectus">
+
+                                    <div class="mb-3">
+                                        <label for="fullname" class="form-label">الاسم كامل</label>
+                                        <input type="text" class="form-control" id="fullname"
+                                            placeholder="الاسم يوضع هنا">
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 pe-1">
+                                            <div class="mb-3">
+                                                <label for="fullname" class="form-label">البريد الالكتروني</label>
+                                                <input type="text" class="form-control" id="fullname"
+                                                    placeholder="الإيميل يوضع هنا">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-6 ps-1">
+                                            <div class="mb-3">
+                                                <label for="fullname" class="form-label"> رقم الهاتف</label>
+                                                <input type="text" class="form-control" id="fullname"
+                                                    placeholder="رقم الهاتف يوضع هنا">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="fullname" class="form-label">عنوان مشكلتك</label>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>مشكلتك</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="mb-3"> <label for="exampleFormControlTextarea1"
+                                            class="form-label">الرسالة</label>
+                                        <textarea class="form-control Textarea1" id="exampleFormControlTextarea1"
+                                            rows="5" placeholder="الرسالة توضع هنا"></textarea>
+                                    </div>
+
+                                    <a href=""
+                                        class="btn d-flex justify-content-center align-items-center btn-Connectus rounded-pill">
+                                        تواصل معنا
+                                        <i class="fa-solid ps-4 fa-arrow-left"></i> </a>
+                                </form>
+                            </div>
+
+                            <div
+                                class="col-12 col-lg-4 mb-4 contact-color-text row flex-lg-column justify-content-evenly py-3 px-4">
+                                <div class="col-12 d-flex align-items-lg-center justify-content-start mb-4 mb-lg-5 p-0">
+                                    <div class="icons-Connectus px-0">
+                                        <a href="tel:972-2-2776393/4"><i class="fa-solid fa-phone"></i></a>
+                                    </div>
+                                    <div class="Connectus-icons-title px-3">
+                                        <p class="mb-0 text-white">رقم الهاتف</p>
+                                        <a href="tel:972-2-2776393/4">972-2-2776393/4</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 d-flex align-items-lg-center justify-content-start mb-4 mb-lg-5 p-0">
+                                    <div class="icons-Connectus">
+                                        <a href="mailto:info@usm-pal.ps"><i class="fa-solid fa-envelope"></i></a>
+                                    </div>
+                                    <div class="Connectus-icons-title px-3">
+                                        <p class="mb-0 text-white">الايميل</p>
+                                        <a href="mailto:info@usm-pal.ps">Herzallah@usm-pal.ps</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 d-flex align-items-lg-center justify-content-start mb-4 mb-lg-5 p-0">
+                                    <div class="icons-Connectus">
+                                        <span><i class="fa-solid fa-location-dot"></i></span>
+                                    </div>
+                                    <div class="Connectus-icons-title px-3">
+                                        <p class="mb-2 text-white">العنوان</p>
+                                        <a>
+                                            <p class="mb-1">الرمال - <span class="fs-12px">عمر المختار مجمع فلسطين
+                                                </span></p>
+                                            <p class="mb-1">الجندي - <span class="fs-12px">عمر المختار مجمع فلسطين
+                                                </span></p>
+                                            <p class="mb-1">البلد - <span class="fs-12px">عمر المختار مجمع فلسطين
+                                                </span></p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 d-flex align-items-lg-center justify-content-start mb-4 mb-lg-5 p-0">
+                                    <div class="icons-Connectus">
+                                        <span><i class="fa-solid fa-clock px-4"></i></span>
+                                    </div>
+                                    <div class="Connectus-icons-title px-3">
+                                        <p class="mb-0 text-white">ساعات العمل</p>
+                                        <a>
+                                            لسبت - الابعاء : 8:00 - 3:30
+                                            <br>
+                                            الخميس: 8:00 - 2:00
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-xl-12 col-xxl-2">
+                                <div class="iframe-Connectus aos-init" data-aos="zoom-in-down" data-aos-easing="linear"
+                                    data-aos-duration="1000">
+                                    <iframe class="h-100 w-100"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2280223.010972445!2d39.135490305010144!3d30.263094399814296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x150c329317805f53%3A0x4e909ff2edd3d93e!2zU3ViYXloYWggNzQzNDPYjCDYp9mE2LPYudmI2K_Zitip!5e0!3m2!1sar!2s!4v1670393217433!5m2!1sar!2s"
+                                        allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <footer class="footer">
+        <div class="container">
+            <div
+                class="d-flex flex-column justify-content-center align-items-center flex-lg-row justify-content-lg-between py-3 ">
+                <p class="text-white m-0">جميع الحقوق محفوظة لشركة حرز الله للصرافة </p>
+                <div class="footerIcon">
+                    <a href="">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-1" width="16" height="16" fill="currentColor"
+                            class="bi bi-telephone" viewBox="0 0 16 16">
+                            <path
+                                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>

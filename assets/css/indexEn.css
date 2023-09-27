@@ -1,0 +1,37 @@
+@media screen and (min-width: 992px){
+    .info-countdown .numberCount div:not(:last-child) {
+        border-left: none;
+        border-right: 1px solid rgba(33, 94, 255, 0.31);
+        border-bottom: none;
+    }
+}
+.bg-imgObjectives {
+    background-image: url(../images/ObjectivesEn.png);
+    height: 470px;
+    background-repeat: no-repeat;
+  }
+@media screen and (min-width: 992px) {
+    .bg-imgObjectives {
+      background-position: left top;
+    }
+  }
+  
+.r-dots{
+    position: absolute; 
+    right: unset;
+    left: -30%;
+  }
+@media screen and (min-width: 992px) {
+    .iframe-Connectus {
+      right: -35px;
+    }
+  }
+  @media screen and (min-width: 1300px) {
+    .iframe-Connectus {
+      left: unset;
+      right: -47px;
+    }
+  }
+  .fa-arrow-left::before {
+    content: "\f061";
+}
